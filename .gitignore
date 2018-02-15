@@ -1,0 +1,15 @@
+### Terraform template
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+### Ansible template
+*.retry
+
+bin/*
+hosts/*

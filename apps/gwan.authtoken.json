@@ -1,0 +1,23 @@
+{
+  "name": "Performance Testing GWan server (AuthToken)",
+  "api_id": "gwan.authtoken",
+  "org_id": "default",
+  "auth": {
+    "auth_header_name": "authorization"
+  },
+  "version_data": {
+    "not_versioned": true,
+    "versions": {
+      "Default": {
+        "name": "Default",
+        "expires": "3000-01-02 15:04"
+      }
+    }
+  },
+  "proxy": {
+    "listen_path": "/gwan_authtoken/",
+    "target_url": "http://webserver:6060/",
+    "strip_listen_path": true
+  },
+  "do_not_track": true
+}

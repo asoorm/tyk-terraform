@@ -1,0 +1,17 @@
+{
+  "allowance": -1,
+  "rate": -1,
+  "per": 60,
+  "expires": -1,
+  "quota_max": -1,
+  "quota_renewal_rate": 60,
+  "access_rights": {
+    "gwan.authtoken": {
+      "api_name": "Versioned API",
+      "api_id": "gwan.authtoken",
+      "versions": [
+        "Default"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Performance Testing GWan server",
+  "api_id": "gwan",
+  "org_id": "default",
+  "use_keyless": true,
+  "version_data": {
+    "not_versioned": true,
+    "versions": {
+      "Default": {
+        "name": "Default",
+        "expires": "3000-01-02 15:04"
+      }
+    }
+  },
+  "proxy": {
+    "listen_path": "/gwan/",
+    "target_url": "http://webserver:6060/",
+    "strip_listen_path": true
+  },
+  "do_not_track": true
+}
